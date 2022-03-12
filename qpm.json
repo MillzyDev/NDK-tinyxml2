@@ -1,0 +1,15 @@
+{
+  "sharedDir": "shared",
+  "dependenciesDir": "extern",
+  "info": {
+    "name": "tinyxml2",
+    "id": "tinyxml2",
+    "version": "9.0.0",
+    "url": "https://github.com/MillzyDev/NDK-tinyxml2",
+    "additionalData": {
+      "overrideSoName": "libtinyxml2.so"
+    }
+  },
+  "dependencies": [],
+  "additionalData": {}
+}
