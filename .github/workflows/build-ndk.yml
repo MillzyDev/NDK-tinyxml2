@@ -64,6 +64,7 @@ jobs:
 
     - name: QPM Legacy fix
       run: |
+        cd ${GITHUB_WORKPLACE}
         chmod +x ./QPM/qpm-rust
         ./QPM/qpm-rust cache legacy-fix
 
