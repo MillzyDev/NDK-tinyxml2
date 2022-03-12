@@ -2,7 +2,7 @@ name: NDK build
 
 env:
     ndkname: android-ndk-r23
-    module_id: tiyxml2
+    module_id: tinyxml2
     qmodName: tinyxml2
     cache-name: tinlyxml2_cache
 
