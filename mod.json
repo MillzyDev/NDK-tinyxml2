@@ -9,10 +9,10 @@
   "packageVersion": "1.20.0",
   "description": "tinyxml2",
   "dependencies": [],
-  "modFiles": [
+  "modFiles": [],
+  "libraryFiles": [
     "libtinyxml2.so"
   ],
-  "libraryFiles": [],
   "fileCopies": [],
   "copyExtensions": []
 }
