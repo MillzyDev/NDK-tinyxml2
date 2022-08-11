@@ -7,7 +7,11 @@
     "version": "9.0.5",
     "url": "https://github.com/MillzyDev/NDK-tinyxml2",
     "additionalData": {
-      "overrideSoName": "libtinyxml2.so"
+      "soLink": "https://github.com/MillzyDev/NDK-tinyxml2/releases/download/v9.0.5/libtinyxml2.so",
+      "debugSoLink": "https://github.com/MillzyDev/NDK-tinyxml2/releases/download/v9.0.5/debug_libtinyxml2.so",
+      "overrideSoName": "libtinyxml2.so",
+      "modLink": "https://github.com/MillzyDev/NDK-tinyxml2/releases/download/v9.0.5/tinyxml2.qmod",
+      "branchName": "version-v9.0.5"
     }
   },
   "dependencies": [],
