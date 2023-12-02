@@ -39,7 +39,7 @@ jobs:
       with:
         workflow_token: ${{ secrets.GITHUB_TOKEN }}
         restore: true
-        cache: true
+        cache: false # we can't cache anything as qpm restores nothing
         publish: true
         publish_token: ${{ secrets.QPM_KEY }}
         version: ${{ steps.get_tag_version.outputs.VERSION }}
