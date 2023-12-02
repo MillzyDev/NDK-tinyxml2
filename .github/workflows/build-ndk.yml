@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - 'master'
+      - 'main'
     paths-ignore:
       - '**.yml'
       - '!.github/workflows/build-ndk.yml'
@@ -19,7 +19,7 @@ on:
       - '**.md'
       - '.gitignore'
   pull_request:
-    branches: master
+    branches: main
 
 env:
     module_id: tinyxml2
