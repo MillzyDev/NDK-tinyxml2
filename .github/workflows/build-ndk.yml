@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - 'master'
+      - 'main'
     paths-ignore:
       - '**.yml'
       - '!.github/workflows/build-ndk.yml'
@@ -19,7 +19,7 @@ on:
       - '**.md'
       - '.gitignore'
   pull_request:
-    branches: master
+    branches: main
 
 env:
     module_id: tinyxml2
@@ -48,7 +48,7 @@ jobs:
       with:
         workflow_token: ${{ secrets.GITHUB_TOKEN }}
         restore: true
-        cache: true
+        cache: false # we can't cache anything as qpm restores nothing
         publish: false
 
     - name: Build
