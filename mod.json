@@ -1,12 +1,15 @@
 {
-  "_QPVersion": "0.1.1",
+  "_QPVersion": "1.1.0",
   "name": "tinyxml2",
   "id": "tinyxml2",
   "author": "leethompson",
+  "porter": "Millzy",
+  "modloader": "Scotland2",
   "version": "9.0.0",
   "packageId": "com.beatgames.beatsaber",
-  "packageVersion": "1.21.0",
+  "packageVersion": "1.29.0_4466478251",
   "description": "tinyxml2",
+  "isLibrary": true,
   "dependencies": [],
   "modFiles": [],
   "libraryFiles": [
